@@ -87,16 +87,16 @@ select {
 .bullseye {
   background-image: url(/death-star.png);
   background-size: contain;
-  width: 230px;
-  height: 230px;
+  width: 130px;
+  height: 130px;
   z-index: 4000;
 }
 
 .circle-1 {
   background-image: url(/circle-1.png);
   background-size: contain;
-  width: 330px;
-  height: 330px;
+  width: 230px;
+  height: 230px;
   z-index: 3000;
   display: flex;
   justify-content: center;
@@ -106,8 +106,8 @@ select {
 .circle-2 {
   background-image: url(/circle-2.png);
   background-size: contain;
-  width: 430px;
-  height: 430px;
+  width: 400px;
+  height: 400px;
   z-index: 2000;
   display: flex;
   justify-content: center;
@@ -115,12 +115,19 @@ select {
 }
 
 .circle-3 {
-  background-image: url(/circle-2.png);
+  background-image: url(/circle-3.png);
   background-size: contain;
-  width: 530px;
-  height: 530px;
+  width: 680px;
+  height: 680px;
   z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.r2d2-img {
+  width: 200px;
+  position: fixed;
+  bottom: 5px;
+  right: 20px;
 }
